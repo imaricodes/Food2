@@ -3,13 +3,17 @@
 <head>
     <title>Food Connect</title>
     <link rel="stylesheet" href="styles/style.css" media="all" />
+    <link rel="stylesheet" href="styles/contact.css" media="all" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
 
-    <div class="site-wrapper">
+    <!-- <div class="site-wrapper"> -->
 
         <section class="hero">
             <header class="header">
@@ -44,16 +48,88 @@
 
 
             <div class="main-section section-1">
-                <h2>Some information + image or graphic here?</h2>
+                <img src="/img/logo.png" width="800px" />
+                <div class="section-text">
+
+                    <h2>Whether you need a no-cost solution to food insecurity or would like to share food in a sustainable way, Share Grub is here for you.</h2>
+                </div>
             </div>
 
             <div class="main-section section-2">
                 <h2>Share Grub is easy to use.</h2>
                 <h2>Do you have food to give or do you need food?</h2>
+                <h2>Just let us know.</h2>
                 <div class="have-need-btns">
                     <button class="btn-have-need" role="button">I have food</button>
                     <button class="btn-have-need" role="button">I need food</button>
                 </div>
+            </div>
+
+
+
+
+            <div>NEED FOOD? HERE'S HOW IT WORKS:</div>
+
+            <div class="main-section section-3 two-col">
+                <div>
+
+                    <img src="/img/pin-map.png" alt="">
+                </div>
+                <div>
+
+                    <p>STEP ONE</p>
+                </div>
+            </div>
+
+            <div class="main-section section-4 two-col">
+                <div>
+                    <p>STEP TWO</p>
+                </div>
+                <div>
+                    <img src="/img/map-pin.png" alt="">
+                </div>
+                
+            </div>
+            <div class="main-section section-5 two-col">
+                <div>
+                    <img src="/img/grocery-bag.png" width="400px" alt="">
+                </div>
+                <div>
+                    <p>STEP THREE</p>
+                </div>
+                
+            </div>
+
+            <div>HAVE FOOD TO GIVE? HERE'S HOW IT WORKS:</div>
+
+            <div class="main-section section-3 two-col">
+                <div>
+
+                    <img src="/img/map-pin.png" alt="">
+                </div>
+                <div>
+
+                    <p>STEP ONE</p>
+                </div>
+            </div>
+
+            <div class="main-section section-4 two-col">
+                <div>
+                    <p>STEP TWO</p>
+                </div>
+                <div>
+                    <img src="/img/alert.png" width="350px" alt="">
+                </div>
+                
+            </div>
+            <div class="main-section section-5 two-col">
+                <div>
+                    <img src="/img/map-pin.png" alt="">
+                </div>
+                <div>
+                    <p>STEP THREE</p>
+                </div>
+                
             </div>
 
 
@@ -72,11 +148,66 @@
 
         </div>
 
-        <div class="footer">
-            <p>&copy;Copyright 2022 FoodConnect</p>
+        <div class="contain">
+
+            <div class="wrapper">
+
+                <div class="form">
+                    <!-- <h4>GET IN TOUCH</h4> -->
+                    <h2 class="form-headline">Send us a message</h2>
+                    <form id="submit-form" action="">
+                        <p>
+                            <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                            <small class="name-error"></small>
+                        </p>
+                        <p>
+                            <input id="email" class="form-input" type="email" placeholder="Your Email*">
+                            <small class="name-error"></small>
+                        </p>
+                        <p class="full-width">
+                            <input id="company-name" class="form-input" type="text" placeholder="Company Name">
+                            <small></small>
+                        </p>
+                        <p class="full-width">
+                            <textarea minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*"
+                                required></textarea>
+                            <small></small>
+                        </p>
+                        <p class="full-width">
+                            <input type="checkbox" id="checkbox" name="checkbox" checked> Add me to the Share Grub email
+                            list.
+                        </p>
+                        <p class="full-width">
+                            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                            <button class="reset-btn button-form" onclick="reset()">Reset</button>
+                        </p>
+                    </form>
+                </div>
+
+                <!-- <div class="contacts contact-wrapper">
+          
+                <ul>
+                  <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+                      billion</span> for our clients. Ready to know
+                    how we can help you?</li>
+                  <span class="hightlight-contact-info">
+                    <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
+                  </span>
+                </ul>
+              </div> -->
+            </div>
         </div>
 
-    </div>
+
+
+
+
+        <div class="footer">
+            <p>&copy;Copyright 2022 Share Grub</p>
+        </div>
+
+    <!-- </div> -->
 
 </body>
 
