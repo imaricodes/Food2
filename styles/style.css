@@ -246,8 +246,8 @@ img {vertical-align: middle;}
   justify-content: center;
   align-items: center;
 }
-.hero::before {
-  content: "";
+.hero {
+  /* content: ""; */
   position: absolute;
   top: 0;
   left: 0;
