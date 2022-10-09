@@ -19,6 +19,38 @@ body {font-family: 'Inter Tight', sans-serif; margin:0; padding:0px;}
 
 /* HERO CSS */
 
+
+.hero2 {
+  background-image: url(/img/handing-corn.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8rem;
+  /* filter:brightness(50%) */
+  
+}
+
+.navigation {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
+
 .hero {
   /* position: relative; */
   width: 100%;
@@ -45,20 +77,29 @@ body {font-family: 'Inter Tight', sans-serif; margin:0; padding:0px;}
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; */
-  filter: brightness(60%);
+  /* filter: brightness(60%); */
 }
-.hero-content {
+.hero-content2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  /* align-items: flex-start; */
   position: relative;
+  margin-top: auto;
   font-family: "Monserrat", sans-serif;
   color: white;
   text-align: center;
-  margin-right: 60%;
-  margin-top: 10%;
+  width: 100%;
+
 }
 .hero-title {
   font-size: 10rem;
   font-weight: 600;
   margin-bottom: 0;
+
+
+
+
 }
 .hero-subtitle {
   font-size: 2rem;
@@ -95,6 +136,11 @@ body {font-family: 'Inter Tight', sans-serif; margin:0; padding:0px;}
 
 /* NAVIGATION*/
 
+.logo{
+  /* flex-shrink: 0; */
+  float: left;
+}
+
 	.header {
     width: 100%;
     display: flex;
@@ -111,10 +157,13 @@ body {font-family: 'Inter Tight', sans-serif; margin:0; padding:0px;}
     justify-content:flex-end;
     gap: 20px;
     color: #FFFF;
+    margin-left: auto;
+    font-size: 24px;
   }
   
   a {
     text-decoration: none;
+    color: white;
   }
 
   ul {
