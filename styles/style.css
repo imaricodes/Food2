@@ -1,5 +1,5 @@
 body{
-  background-color: #b3e2b3;
+  background-color: #97B048;
 }
 
 * {box-sizing: border-box}
@@ -7,11 +7,10 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 
 .main_content{
-  clear: both;
+  /* clear: both;
   padding: 30px;
   overflow: auto;
-  background: #CCFFCC;
-  background-color: #b3e2b3;
+  background-color: #97B048; */
 }
 
 #main_content_title{
@@ -61,18 +60,23 @@ body {font-family: Verdana, sans-serif; margin:0}
 /* HERO CSS */
 
 .hero {
-  position: relative;
+  /* position: relative; */
   width: 100vw;
-  height: 100vh;
+  height: 1300px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 50px;
-  margin-bottom: 60px;
+ 
+  background: url(../img/handing-corn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
 }
 .hero::before {
   content: "";
-  position: absolute;
+  /* position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -80,7 +84,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   background: url(../img/handing-corn.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
   filter: brightness(60%);
 }
 .hero-content {
@@ -90,10 +94,6 @@ body {font-family: Verdana, sans-serif; margin:0}
   text-align: center;
   margin-right: 60%;
   margin-top: 10%;
-  
-
-
-
 }
 .hero-title {
   font-size: 10rem;
@@ -171,6 +171,8 @@ body {font-family: Verdana, sans-serif; margin:0}
   justify-content: center;
   gap: 10%;
   margin-bottom: 50px;
+  margin-top: 75px;
+
 }
 
 
@@ -183,4 +185,52 @@ body {font-family: Verdana, sans-serif; margin:0}
   padding: 20px;
   font-size: 50px;
   text-align: center;
+}
+
+.main-section {
+  display: flex;
+
+  padding: 60px 30px 60px 30px;
+  
+}
+
+.section-1 {
+  display:flex;
+  
+  height: 500px;
+  /* background-color: #6e5a42; */
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+ 
+  align-items: center;
+
+}
+.section-2 {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  align-items: center;
+  background-color: #6e5a42;
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  
+}
+
+.section-3 {
+  display:flex;
+  
+  height: 500px;
+  /* background-color: #6e5a42; */
+  width: 100%;
+  color: white;
+  font-size: 40px;
+  justify-content: center;
+ 
+  align-items: center;
+
 }
