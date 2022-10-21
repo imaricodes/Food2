@@ -1,13 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Food Connect</title>
-    <link rel="stylesheet" href="styles/style.css" media="all" />
-    <link rel="stylesheet" href="styles/contact.css" media="all" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Connect 2</title>
 
+    <!-- <link rel="stylesheet" href="styles/reset.css" media="all" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" media="all" />
+    <!-- <link rel="stylesheet" href="styles/contact.css" media="all" /> -->
 </head>
 
 <body>
@@ -15,43 +20,80 @@
 
     <!-- <div class="site-wrapper"> -->
 
-        <header class="hero2">
-            <nav class="navigation">
-                <!-- <h1 class="logo"><a href="#">Grub Share</a></h1> -->
-                <img src="/img/logo nav.png" width="260px"alt="">
-                <ul class="main-nav">
+<div class="header__hero__bg-img">
+            <header class="header">
+                <nav class="navigation">
                    
-                    <li><a href="#">About</a></li>
-                   
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="hero-content2">
-
-                <h1 class="hero-title">
-                    SHARE GRUB
-                </h1>
-                <h2 class="hero-subtitle">
-                    Create giving, not garbage.
-                </h2>
-
-            </div>
-
-        </header>
-
-
-        <div class="main">
-
-
-            <div class="main-section section-1">
-                <img src="/img/logo.png" width="800px" />
-                <div class="section-text">
-
-                    <h2>Whether you need a no-cost solution to food insecurity or would like to share food in a sustainable way, Share Grub is here for you.</h2>
+                    <img src="/img/logo nav.png" width="260px" alt="">
+                    <ul class="main-nav">
+    
+                        <li><a href="#">About</a></li>
+    
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__hero__content">
+                    <h1 class="header__hero__content__title">
+                        SHARE GRUB
+                    </h1>
+                    <h2 class="header__hero__content__subtitle">
+                        Create giving, not garbage.
+                    </h2>
                 </div>
+            </header>
+        </div>   
+
+
+
+
+    <main class="grid-container">
+
+        <section class="section">
+            <div class="section__col-left ">
+                <img src="/img/logo.png" class="section__col-left__img" />
+            </div>
+            <div class="section__col__right section__col-right--color-green ">
+                <h2 class="section-__col-right__h2">EXPLAIN WHAT IT IS</h2>
+                <p class="section__col-right_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, est! Culpa, nobis molestias
+                    consequatur necessitatibus incidunt aperiam omnis quisquam. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Fuga, est! Culpa, nobis molestias consequatur necessitatibus incidunt aperiam
+                    omnis quisquam.</p>
             </div>
 
-            <div class="main-section section-2">
+        </section>
+
+
+        <section class="section">
+            <div class="section__col-left ">
+                <img src="/img/holder_500x500.png" class="section__col-left__img" />
+            </div>
+            <div class="section__col__right section__col-right--color-green ">
+                <h2 class="section-__col-right__h2">EXPLAIN WHAT IT IS</h2>
+                <p class="section__col-right_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, est! Culpa, nobis molestias
+                    consequatur necessitatibus incidunt aperiam omnis quisquam. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Fuga, est! Culpa, nobis molestias consequatur necessitatibus incidunt aperiam
+                    omnis quisquam.</p>
+            </div>
+
+        </section>
+
+        <section class="section">
+            <div class="section__col-left ">
+                <img src="/img/holder_500x500.png" class="section__col-left__img" />
+            </div>
+            <div class="section__col__right section__col-right--color-green ">
+                <h2 class="section-__col-right__h2">EXPLAIN WHAT IT IS</h2>
+                <p class="section__col-right_p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, est! Culpa, nobis molestias
+                    consequatur necessitatibus incidunt aperiam omnis quisquam. Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Fuga, est! Culpa, nobis molestias consequatur necessitatibus incidunt aperiam
+                    omnis quisquam.</p>
+            </div>
+
+        </section>
+
+
+        <!--             
+            <div class="main-section" id="section-2">
                 <h2>Share Grub is easy to use.</h2>
                 <h2>Do you have food to give or do you need food?</h2>
                 <h2>Just let us know.</h2>
@@ -62,11 +104,9 @@
             </div>
 
 
-
-
             <div>NEED FOOD? HERE'S HOW IT WORKS:</div>
 
-            <div class="main-section section-3 two-col">
+            <div class="main-section two-col" id="section-3">
                 <div>
 
                     <img src="/img/pin-map.png" alt="">
@@ -77,7 +117,7 @@
                 </div>
             </div>
 
-            <div class="main-section section-4 two-col">
+            <div class="main-section two-col">
                 <div>
                     <p>STEP TWO</p>
                 </div>
@@ -86,7 +126,7 @@
                 </div>
                 
             </div>
-            <div class="main-section section-5 two-col">
+            <div class="main-section two-col">
                 <div>
                     <img src="/img/grocery-bag.png" width="400px" alt="">
                 </div>
@@ -98,7 +138,7 @@
 
             <div>HAVE FOOD TO GIVE? HERE'S HOW IT WORKS:</div>
 
-            <div class="main-section section-3 two-col">
+            <div class="main-section two-col">
                 <div>
 
                     <img src="/img/map-pin.png" alt="">
@@ -109,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="main-section section-4 two-col">
+            <div class="main-section two-col">
                 <div>
                     <p>STEP TWO</p>
                 </div>
@@ -118,7 +158,7 @@
                 </div>
                 
             </div>
-            <div class="main-section section-5 two-col">
+            <div class="main-section two-col">
                 <div>
                     <img src="/img/map-pin.png" alt="">
                 </div>
@@ -136,72 +176,30 @@
                 <h2>Some more information + image or graphic here?</h2>
                 <h2>Some more information + image or graphic here?</h2>
             </div>
+ -->
+
+
+
+    </main>
 
 
 
 
 
 
-        </div>
-
-        <div class="contain">
-
-            <div class="wrapper">
-
-                <div class="form">
-                    <!-- <h4>GET IN TOUCH</h4> -->
-                    <h2 class="form-headline">Send us a message</h2>
-                    <form id="submit-form" action="">
-                        <p>
-                            <input id="name" class="form-input" type="text" placeholder="Your Name*">
-                            <small class="name-error"></small>
-                        </p>
-                        <p>
-                            <input id="email" class="form-input" type="email" placeholder="Your Email*">
-                            <small class="name-error"></small>
-                        </p>
-                        <p class="full-width">
-                            <input id="company-name" class="form-input" type="text" placeholder="Company Name">
-                            <small></small>
-                        </p>
-                        <p class="full-width">
-                            <textarea minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*"
-                                required></textarea>
-                            <small></small>
-                        </p>
-                        <p class="full-width">
-                            <input type="checkbox" id="checkbox" name="checkbox" checked> Add me to the Share Grub email
-                            list.
-                        </p>
-                        <p class="full-width">
-                            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
-                            <button class="reset-btn button-form" onclick="reset()">Reset</button>
-                        </p>
-                    </form>
-                </div>
-
-                <!-- <div class="contacts contact-wrapper">
-          
-                <ul>
-                  <li>We've driven online revenues of over <span class="highlight-text-grey">$2
-                      billion</span> for our clients. Ready to know
-                    how we can help you?</li>
-                  <span class="hightlight-contact-info">
-                    <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com</li>
-                    <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
-                  </span>
-                </ul>
-              </div> -->
-            </div>
-        </div>
 
 
 
 
 
-        <div class="footer">
-            <p>&copy;Copyright 2022 Share Grub</p>
-        </div>
+
+
+
+
+
+    <div class="footer">
+        <p>&copy;Copyright 2022 Share Grub</p>
+    </div>
 
     <!-- </div> -->
 
